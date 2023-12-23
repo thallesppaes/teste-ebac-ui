@@ -19,5 +19,10 @@ describe('Funcionalidade Página de Produtos', () => {
     cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
   });
 
+  it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+
+    cy.addProdutos('M', 'Green', 3)
+  });
+
 
 });
