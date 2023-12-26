@@ -14,7 +14,7 @@ describe('Funcionlidade Endereços - Faturamento e Entrega', () => {
     enderecoPage.editarEnderecoFaturamento('Junior', 'Alves', 'Vivo', 'Brasil', 'Av Joao Paulo', '200', 'Cerquilho', 'São Paulo', '02002000', '14999999999', 'ebac-teste@dominio.com')
   });
 
-  i.only('Deve fazer cadastro e faturamento com sucesso - Usando arquivo de dados', () => {
+  it('Deve fazer cadastro e faturamento com sucesso - Usando arquivo de dados', () => {
     enderecoPage.editarEnderecoFaturamento(
       dadosEndereco[1].nome,
       dadosEndereco[1].sobrenome,
