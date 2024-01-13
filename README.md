@@ -28,14 +28,14 @@ Antes de executar os testes, certifique-se de ter as seguintes ferramentas insta
 
 npm install
 
-Executando os Testes
+## Executando os Testes
 Para executar os testes, utilize o seguinte comando:
 
 npm cy:run
 
 Isso iniciará o Cypress e executará todos os testes definidos no diretório cypress/integration.
 
-Estrutura do Projeto
+### Estrutura do Projeto
 cypress/integration: Contém os scripts de teste escritos em Cypress.
 cypress/support: Contém arquivos de suporte, como comandos personalizados e configurações adicionais.
 cypress/fixtures: Armazena dados fictícios gerados pelo Faker para uso nos testes.
@@ -49,4 +49,4 @@ Autor
 Thalles
 
 <p align="center">⭐️ Se este projeto foi útil para você, por favor, considere dar uma estrela ⭐️</p>
-
+```
