@@ -36,17 +36,18 @@ npm cy:run
 Isso iniciará o Cypress e executará todos os testes definidos no diretório cypress/integration.
 
 ### Estrutura do Projeto
-cypress/integration: Contém os scripts de teste escritos em Cypress.
-cypress/support: Contém arquivos de suporte, como comandos personalizados e configurações adicionais.
-cypress/fixtures: Armazena dados fictícios gerados pelo Faker para uso nos testes.
-Personalização dos Dados Fictícios
+cypress/integration: Contém os scripts de teste escritos em Cypress.</br>
+cypress/support: Contém arquivos de suporte, como comandos personalizados e configurações adicionais.</br>
+cypress/fixtures: Armazena dados fictícios gerados pelo Faker para uso nos testes.</br>
+
+### Personalização dos Dados Fictícios
 Os dados fictícios são gerados usando a biblioteca Faker. Para personalizar os dados, ajuste os scripts em cypress/support/commands.js conforme necessário.
 
-Contribuição
+### Contribuição
 Sinta-se à vontade para contribuir para este projeto abrindo problemas ou enviando solicitações de pull.
 
-Autor
+### Autor
 Thalles
 
 <p align="center">⭐️ Se este projeto foi útil para você, por favor, considere dar uma estrela ⭐️</p>
-```
+
